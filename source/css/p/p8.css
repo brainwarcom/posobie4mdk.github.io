@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,200&display=swap');
+
+h1 {
+    position: absolute;
+    width: 1680px;
+    height: 275px;
+    left: 120px;
+    top: 1px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 120px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+h2 {
+    position: absolute;
+    width: 1580px;
+    height: 200px;
+    right: 120px;
+    top: 450px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 120px;
+    text-align: right;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+h3 {
+    position: absolute;
+    width: 1500px;
+    height: 660px;
+    left: 225px;
+    top: 900px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 75px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+h4 {
+    position: absolute;
+    width: 1500px;
+    height: 660px;
+    left: 225px;
+    top: 1250px;
+
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 75px;
+    text-align: right;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+h5 {
+    position: absolute;
+    width: 1500px;
+    height: 660px;
+    left: 225px;
+    top: 3500px;
+
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 75px;
+    text-align: left;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.button-back-page {
+    position: absolute;
+
+    background-color: plum;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-start;
+
+    width: 100px;
+    height: 100px;
+
+    top: 7300px;
+    margin-left: 86.5%;
+    margin-bottom: 2.6%;
+}
+
+.div-frame {
+    background-image: url('/source/img/vector_arrow_back_white.png');
+    flex: 1;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.div-frame:hover {
+    background-image: url('/source/img/vector_arrow_back_black.png');
+    flex: 1;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+br::selection {
+    background: #d1a1ff;
+    color: white;
+}
+
+h7::selection {
+    background: #d1a1ff;
+    color: white;
+}
+
+h6::selection {
+    background: #d1a1ff;
+    color: white;
+}
+
+h5::selection {
+    background: #d1a1ff;
+    color: white;
+}
+
+h4::selection {
+    background: #d1a1ff;
+    color: white;
+}
+
+h3::selection {
+    background: #d1a1ff;
+    color: white;
+}
+
+.xh1 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+
+    top: 7450px;
+    left: 50%;
+}
+
+body {
+    background: linear-gradient(90deg, #FFEECC 8px, transparent 1%) center, linear-gradient(#FFEECC 8px, transparent 1%) center, #E5D5B7;
+    background-size: 10px 10px;
+    background-position: center 0;
+    animation: grid 1s linear infinite;
+}
+
+@-webkit-keyframes grid {
+    to {
+        background-position: center -10px;
+    }
+}
