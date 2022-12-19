@@ -1,0 +1,145 @@
+@media screen and (max-width: 1280px) and (min-width: 300px) {
+    .card {
+        left: 5%;
+
+        width: 325px;
+        height: 420px;
+    }
+
+    .card .card-infos h3 {
+        font-size: 26px;
+    }
+
+    .card_2 {
+        left: 6.7%;
+        top: 85%;
+
+        width: 325px;
+        height: 420px;
+    }
+
+    .card_2 .card-infos_2 h3 {
+        font-size: 26px;
+    }
+
+    .card_3 {
+        left: 6.7%;
+        top: 160%;
+
+        width: 325px;
+        height: 420px;
+    }
+
+    .card_3 .card-infos_3 h3 {
+        font-size: 26px;
+    }
+
+    .card_4 {
+        left: 6.7%;
+        top: 235%;
+
+        width: 325px;
+        height: 420px;
+    }
+
+    .card_4 .card-infos_4 h3 {
+        font-size: 26px;
+    }
+
+    .card_5 {
+        left: 6.7%;
+        top: 310%;
+
+        width: 325px;
+        height: 420px;
+    }
+
+    .card_5 .card-infos_5 h3 {
+        font-size: 26px;
+    }
+
+    .card_6 {
+        left: 6.7%;
+        top: 385%;
+
+        width: 325px;
+        height: 420px;
+    }
+
+    .card_6 .card-infos_6 h3 {
+        font-size: 26px;
+    }
+
+    .card_7 {
+        left: 6.7%;
+        top: 460%;
+
+        width: 325px;
+        height: 420px;
+    }
+
+    .card_7 .card-infos_7 h3 {
+        font-size: 26px;
+    }
+
+    .card_8 {
+        left: 6.7%;
+        top: 535%;
+
+        width: 325px;
+        height: 420px;
+    }
+
+    .card_8 .card-infos_8 h3 {
+        font-size: 26px;
+    }
+
+    .card_9 {
+        left: 6.7%;
+        top: 610%;
+
+        width: 325px;
+        height: 420px;
+    }
+
+    .card_9 .card-infos_9 h3 {
+        font-size: 22px;
+    }
+
+    .card_10 {
+        left: 6.7%;
+        top: 685%;
+
+        width: 325px;
+        height: 420px;
+    }
+
+    .card_10 .card-infos_10 h3 {
+        font-size: 26px;
+    }
+
+    .button-back-page {
+        position: absolute;
+
+        background-color: plum;
+        border-radius: 50%;
+        display: flex;
+        align-items: flex-start;
+
+        width: 100px;
+        height: 100px;
+
+        top: 760%;
+        margin-left: 35%;
+        margin-bottom: 2.6%;
+    }
+
+    .xh1 {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+
+        top: 785%;
+        left: 1%;
+    }
+}
